@@ -1,13 +1,15 @@
-export const config1 = [
-  {
-    key: 'ejgzfl',
+export interface Form {
+	showColon?: boolean;
+}
 
-  }
-]
+export interface FormItem {
+	field: string;
+	label?: string;
+	disabled?: boolean;
+}
 
-const layout1 = [
-  {
-    label: '规则类型',
-    
-  }
-]
+export interface LayoutItem {
+	key: string;
+	label?: string;
+	required?: boolean;
+}
