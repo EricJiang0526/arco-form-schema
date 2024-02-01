@@ -8,11 +8,12 @@
 		"preview": "vite preview",
 		"storybook": "start-storybook -p 6006",
 		"build-storybook": "build-storybook",
-		"chromatic": "npx chromatic --project-token=e24a0bc6f564"
+		"chromatic": "npx chromatic --project-token=e24a0bc6f564",
+		"clean": "rimraf node_modules"
 	},
 	"dependencies": {
 		"@arco-design/web-vue": "^2.54.2",
-		"vue": "^3.2.29",
+		"vue": "3.4.15",
 		"vuex": "^4.0.2"
 	},
 	"devDependencies": {
@@ -35,6 +36,7 @@
 		"less": "~4.1.3",
 		"less-loader": "~11.1.0",
 		"prettier": "^3.2.2",
+		"rimraf": "^5.0.5",
 		"sass": "^1.49.7",
 		"storybook-builder-vite": "^0.1.15",
 		"typescript": "^4.5.4",
